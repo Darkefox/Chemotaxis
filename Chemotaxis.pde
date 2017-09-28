@@ -48,8 +48,8 @@ class Walker
 
     if (mousePressed)
     {
-      myX=myX+0;
-      myY=myY+0;
+      myX= myX+(int)(Math.random()*5)-2;
+      myY= myY+(int)(Math.random()*5)-2;
     }
     else
     {
